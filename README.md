@@ -5,7 +5,7 @@ This project renders various types of fractals including:
 - Julia Set
 - Tricorn (Mandelbar) Set
 
-Created as part of the 42 School curriculum, this program focuses on optimized graphic output and educational visualization of complex mathematical concepts.
+Created as part of the 42 School curriculum, this program focuses on optimized graphic output and visualization of fractals.
 
 ## 🌟 Features
 
@@ -67,32 +67,56 @@ make
 
 ## 🚀 Usage
 
-Run the program with a fractal type argument:
-```bash
-./fractol mandelbrot
-./fractol julia [real] [imaginary]  # Optional parameters for Julia set
-./fractol tricorn
+```
+*--------------42 Fractol---------------*
+* Usage: ./fractol [-m | -j | -t]      *
+* Examples:                             *
+*   Mandelbrot: ./fractol -m           *
+*   Julia Set : ./fractol -j 0.4 0.6   *
+*---------------------------------------*
 ```
 
-### Julia Set Parameters
-For Julia sets, you can specify the starting parameters:
+### Available Options:
+- `-m`: Generate Mandelbrot set
+- `-j`: Generate Julia set (requires real and imaginary parameters)
+- `-t`: Generate Tricorn set
+
+### Examples:
 ```bash
-./fractol julia -0.4 0.6  # Creates a specific Julia set variation
+# Generate Mandelbrot set
+./fractol -m
+
+# Generate Julia set with specific parameters
+./fractol -j 0.4 0.6
+
+# Generate Tricorn set
+./fractol -t
 ```
 
 ## 📈 Ongoing Development
 
-Trying to improve this project, including:
+This project is actively maintained and improved. Planned enhancements include:
 - Additional fractal types
 - More color schemes
 - Performance optimizations
+- Educational mode with mathematical explanations
+- Export functionality for high-resolution images
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to help improve this project:
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ## 📝 License
 
 This project is part of 42 School's curriculum. While the code is available for reference and educational purposes, please be mindful of academic integrity policies.
 
 ### MinilibX License
-This project uses the MinilibX (MLX) library, which is subject to its own rights and license terms. MLX was developed by Olivier Crouzet for 42 School. Visit [MLX Repository](https://github.com/42Paris/minilibx-linux) for more information about the library's terms of use.
+This project uses the MinilibX (MLX) library, a low-level graphic library, which is subject to its own rights and license terms. MLX was developed by Olivier Crouzet for 42 School. Visit [MLX Repository](https://github.com/42Paris/minilibx-linux) for more information about the library's terms of use.
 
 ## 👤 Author
 
