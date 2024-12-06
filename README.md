@@ -10,7 +10,7 @@ Created as part of the 42 School curriculum, this program focuses on optimized g
 📚 Learning Resources
 MinilibX Quick Guide
 I've created a beginner-friendly presentation to help you get started with MinilibX:
-MinilibX Beginner's Guide (https://www.canva.com/design/DAGT6G8aJHY/oaLZtak2iXNrSD0aaGWPgg/)
+MinilibX Beginner's Guide (https://www.canva.com/design/DAGT6G8aJHY/oaLZtak2iXNrSD0aaGWPgg/edit?utm_content=DAGT6G8aJHY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 ## 🌟 Features
 
