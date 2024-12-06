@@ -61,7 +61,7 @@ Dependencies:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/fractol.git
+git clone https://github.com/hermeszi/fractol.git
 cd fractol
 ```
 
@@ -100,12 +100,10 @@ make
 
 ## 📈 Ongoing Development
 
-This project is actively maintained and improved. Planned enhancements include:
+Planned enhancements include:
 - Additional fractal types
 - More color schemes
 - Performance optimizations
-- Educational mode with mathematical explanations
-- Export functionality for high-resolution images
 
 ## 🤝 Contributing
 
