@@ -5,7 +5,7 @@ This project renders various types of fractals including:
 - Julia Set
 - Tricorn (Mandelbar) Set
 
-Created as part of the 42 School curriculum, this program focuses on optimized graphic output and visualization of fractals.
+Created as part of the 42 core curriculum, this program focuses on using a low-level graphic library and visualization of fractals.
 
 📚 Learning Resources
 MinilibX Quick Guide
