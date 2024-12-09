@@ -7,10 +7,9 @@ This project renders various types of fractals including:
 
 Created as part of the 42 core curriculum, this program focuses on using a low-level graphic library and visualization of fractals.
 
-📚 Learning Resources
-MinilibX Quick Guide
+## 📚 MinilibX Quick Guide
 I've created a beginner-friendly presentation to help you get started with MinilibX:
-MinilibX Beginner's Guide (https://www.canva.com/design/DAGT6G8aJHY/oaLZtak2iXNrSD0aaGWPgg/edit?utm_content=DAGT6G8aJHY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+[MinilibX Beginner's Guide - Canvas](https://www.canva.com/design/DAGT6G8aJHY/oaLZtak2iXNrSD0aaGWPgg/edit?utm_content=DAGT6G8aJHY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🌟 Features
 
