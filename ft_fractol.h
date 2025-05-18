@@ -31,8 +31,8 @@
 
 # define MAX_ITERATIONS 100
 
-# define WIDTH 800
-# define HEIGHT 600
+# define WIDTH 1200
+# define HEIGHT 900
 
 # define ZOOM_FACTOR 0.95
 # define PAN_FACTOR 0.01
