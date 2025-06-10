@@ -112,6 +112,10 @@ configure [error] : Can't find a suitable X11 include directory.
 sudo apt update
 sudo apt install libx11-dev libxext-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev xorg-dev
 ```
+Verify installation
+```bash
+ls /usr/include/X11/Xlib.h
+```
 
 ### Error 3: Cannot Find -lbsd
 ```bash
