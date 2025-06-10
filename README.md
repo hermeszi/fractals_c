@@ -122,49 +122,6 @@ sudo apt install libx11-dev libxext-dev libxrandr-dev libxinerama-dev libxcursor
 sudo apt install libbsd-dev
 ```
 
-### Error 4: MLX Compilation Issues
-If you encounter other MLX-related compilation errors:
-
-1. **Clean and rebuild:**
-```bash
-make fclean
-make
-```
-
-2. **Check MLX directory structure:**
-```bash
-ls -la mlx_linux/
-```
-
-3. **Manual MLX compilation:**
-```bash
-cd mlx_linux
-make
-cd ..
-make
-```
-
-### Error 5: Linking Errors
-If you get undefined reference errors:
-- Ensure math library is linked: `-lm`
-- Check MLX library path in Makefile
-- Verify all required libraries are installed
-
-### Error 6: Display Issues (Linux)
-If the program compiles but doesn't display:
-```bash
-# Check if X11 forwarding is enabled (for SSH)
-echo $DISPLAY
-
-# Test X11 functionality
-xeyes
-```
-
-### Error 7: Segmentation Fault
-Common causes and solutions:
-- **Null pointer access:** Check MLX initialization
-- **Invalid memory access:** Verify window dimensions
-- **Color value overflow:** Ensure color values are within valid range
 
 ## 📈 Ongoing Development
 Planned enhancements include:
