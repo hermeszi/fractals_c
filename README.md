@@ -110,7 +110,7 @@ configure [error] : Can't find a suitable X11 include directory.
 **Solution (Ubuntu/Debian systems):**
 ```bash
 sudo apt update
-sudo apt install libx11-dev libxext-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+sudo apt install libx11-dev libxext-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev xorg-dev
 ```
 
 ### Error 3: Cannot Find -lbsd
