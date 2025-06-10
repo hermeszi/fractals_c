@@ -23,7 +23,7 @@ MLX_DIR     = ./mlx_linux
 OBJ_DIR     = ./obj
 
 # MLX Git URL
-MLX_URL     = git@github.com:42Paris/minilibx-linux.git
+MLX_URL     = https://github.com/42paris/minilibx-linux.git
 
 # Libraries
 LIBFT       = $(LIBFT_DIR)/libft.a
